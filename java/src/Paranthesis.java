@@ -1,4 +1,4 @@
-//stack implementation to check if the paranthesis are balanced or not
+//stack implementation to check if the paranthesis are balanced or not .
 import java.util.Stack;
 
 public class Paranthesis {
