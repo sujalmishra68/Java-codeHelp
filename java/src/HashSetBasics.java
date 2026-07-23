@@ -27,7 +27,7 @@ public class HashSetBasics {
     System.out.println(st1); // Output: [20, 30]
     System.out.println(st2); // Output: [20, 30, 40]
    System.out.println(st1.containsAll(st2)); // Output: false
-   System.out.println(st2.containsAll(st1)); // Output: true
+   System.out.println(st2.containsAll(st1)); // Output: true 
 
 
     }
