@@ -3,9 +3,17 @@ public class ArryaManuplationProblem {
      
     //array for reversing the array
     int [] arr ={1,2,32,4,69,10};
-    System.out.println("-----------Reverse the array----------");
-   reversearray(arr); 
+   System.out.println("-----------Reverse the array----------");
+reversearray(arr);
+
+System.out.println();
+System.out.println("-----------Shift the array----------");
+shiftarray(arr);
+   
+
   }
+
+  //function to reverse the array
   static void reversearray(int [] arr){
     System.out.print("The original array is: ");
     for(int k :arr){
@@ -25,5 +33,28 @@ public class ArryaManuplationProblem {
       for(int k :arr){
         System.out.print(k + " ");
       }
+  }
+
+  //function to shift the array by 1
+  static void shiftarray(int [] arr){
+    System.out.print("The original array is: ");
+    for(int k :arr){
+      System.out.print(k + " ");
+    }
+    System.out.println();
+    //last eleemt ko temp mia daal diye 
+    int temp = arr[arr.length-1];
+    
+    //shift the array by 1
+    for(int i=arr.length-1;i>0;i--){
+      arr[i] = arr[i-1];
+    }
+    arr[0] = temp;
+    System.out.println("The shifted array is: ");
+    for(int k :arr){
+      System.out.print(k + " ");  
+    }
+
+
   }
 }
