@@ -57,4 +57,6 @@ shiftarray(arr);
 
 
   }
+
+  //print extreme elements  in alternate manner
 }
