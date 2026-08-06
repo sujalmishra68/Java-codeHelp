@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 // import java.util.*;
@@ -30,6 +31,12 @@ public class HashSetBasics {
    System.out.println(st2.containsAll(st1)); // Output: true 
 
 
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(2,0);
+        map.put(3,1);
+        map.put(4,2);
+        System.out.println(map);
     }
 }
 

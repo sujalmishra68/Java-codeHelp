@@ -1,5 +1,5 @@
 import java.util.HashMap;
-
+// find the mode
 public class ModeOfArray {
 
     public static void main(String[] args) {

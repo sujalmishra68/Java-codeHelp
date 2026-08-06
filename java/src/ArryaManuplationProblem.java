@@ -95,6 +95,7 @@ public class ArryaManuplationProblem {
 
     for (int num : arr) {
       map.put(num, map.getOrDefault(num, 0) + 1);
+      map.getOrDefault(10,0);
     }
 
 
